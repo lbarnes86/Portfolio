@@ -2,10 +2,24 @@ body {
     font-weight: bolder;
     font-family: "Lato", sans-serif;
     background-color: aliceblue;
-    color: grey;
+    color: darkgrey;
     align-items: center;
     justify-content: center;
     
+}
+
+.jumbotron {
+    font-weight: bolder;
+    font-family: "Lato", sans-serif;
+    background-color: aliceblue;
+    color: darkgrey;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    background-color: white;
 }
 
 .container {
@@ -20,11 +34,12 @@ img {
 }
 
 a {
-    color: grey;
+    color: rgb(78, 74, 74);
 }
  p {
      font-weight: bolder;
-     color: black;
+     color: rgb(49, 47, 47);
+     font-style: italic;
  }
 
 footer {
@@ -47,11 +62,12 @@ footer {
   }
   
   .logo {
-    height: 60px;
-    width: 60px;
+    height: 80px;
+    width: 80px;
   }
   
   .title {
+      color: black;
     text-align: center;
     font-size: 3rem;
     font-weight: 300;
