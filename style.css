@@ -20,6 +20,10 @@ body {
 
 .nav {
     background-color: white;
+    padding-bottom: .5em;
+}
+a:hover {
+    color: black;
 }
 
 .container {
@@ -29,24 +33,30 @@ h3 {
     font-style: italic;
 }
 
+h5 {
+    font-weight: bolder;
+    color: rgb(49, 47, 47);
+    font-style: italic;
+}
+
 img {
     text-align: center;
 }
+
 
 a {
     color: rgb(78, 74, 74);
 }
  p {
-     font-weight: bolder;
-     color: rgb(49, 47, 47);
-     font-style: italic;
+    color: black; 
+    text-align: left;
  }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color:darkgray;
     
   }
   .footnote {
@@ -55,7 +65,9 @@ footer {
     text-align: center;
     margin-top: 10px;
   }
-
+  .contact-btn {
+    text-align: center;
+}
 
   .navbar {
     margin-bottom: 100px;
@@ -74,7 +86,14 @@ footer {
     margin-top: 30px;
     margin-bottom: 30px;
   }
+  .card-title {
+      color: grey;
+      font-weight: bolder;
+      text-align: left;
+  }
   
+  
+
   .subtitle {
     text-align: center;
     font-size: 1.8rem;
@@ -86,3 +105,5 @@ footer {
     text-align: center;
     font-weight: 400;
   }
+
+  
