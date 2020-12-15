@@ -21,6 +21,7 @@ body {
 .nav {
     background-color: white;
     padding-bottom: .5em;
+    
 }
 a:hover {
     color: black;
@@ -45,7 +46,7 @@ img {
 
 
 a {
-    color: rgb(78, 74, 74);
+    color:rgb(14, 84, 177);
 }
  p {
     color: black; 
@@ -106,4 +107,8 @@ footer {
     font-weight: 400;
   }
 
-  
+  .btn{
+    color: white;
+    background-color: rgb(1, 73, 167);
+    border: cadetblue;
+}
